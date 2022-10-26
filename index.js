@@ -1,5 +1,6 @@
+import fs from 'fs';
 import chalk from 'chalk';
 
-console.log(chalk.blue('Hello world!'));
-
-console.log('Funcionou');
+function pegaArquivo(caminhoDoArquivo){
+    fs.readFile()
+}
